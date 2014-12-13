@@ -40,6 +40,24 @@
     position: relative;
     left: 1.5rem;
   }
+  .fa-camera-retro {
+    font-size: 1.5rem;
+    color: $white;
+    position: relative;
+    left: 1.5rem;
+  }
+  .fa-soundcloud {
+    font-size: 1.5rem;
+    color: $white;
+    position: relative;
+    left: 1.5rem;
+  }
+  .fa-video-camera {
+    font-size: 1.5rem;
+    color: $white;
+    position: relative;
+    left: 1.5rem;
+  }
   .strip {
     background-color: $blue;
     opacity: 0.9;
@@ -50,7 +68,7 @@
     }
   }
   .caption {
-    opacity: 0.8;
+    opacity: 0.7;
     position: absolute;
     height: 20.65em;
     width: 17.8rem;
