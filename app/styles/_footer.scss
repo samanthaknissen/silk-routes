@@ -1,0 +1,33 @@
+footer {
+  background-color: $blue;
+  height: 16rem;
+  width: 100%;
+  position: relative;
+  padding: 1rem 2rem;
+  top: 24rem;
+  opacity: 0.9;
+  filter: alpha(opacity=40);
+  color: $white;
+  div {
+    width: 20%;
+    border-right: thin solid white;
+    float: left;
+  }
+  .footer-nav {
+    width: 80%;
+    float: right;
+    font-size: 3em;
+    list-style-type: none;
+    li {
+      display: inline;
+    }
+    a {
+      color: $white;
+      text-decoration: none;
+      padding: 0 2rem;
+    }
+    a:hover {
+      color: $brown;
+    }
+  }
+}
