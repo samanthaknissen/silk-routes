@@ -7,6 +7,8 @@
 }
 .page-title {
   background-color: $blue;
+  opacity: 0.9;
+  filter: alpha(opacity=40);
   position: absolute;
   padding: 1rem;
   color: $white;
@@ -30,6 +32,8 @@
   float: left;
   width: 13.5%;
   background-color: $blue;
+  opacity: 0.9;
+  filter: alpha(opacity=40);
   margin: 12rem 2rem;
   position: absolute;
   padding: 0 1rem;
@@ -43,6 +47,7 @@
     font-size: 1.25rem;
     margin: 0;
     font-family: 'Open Sans', sans-serif;
+    line-height: 1.5em;
   }
   a:hover {
     color: $brown;
@@ -52,5 +57,11 @@
   }
   ul {
     padding-left: 0.15em;
+  }
+  .active a {
+    color: $brown;
+  }
+  .active a:hover {
+    color: $white;
   }
 }
