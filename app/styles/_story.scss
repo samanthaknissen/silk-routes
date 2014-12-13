@@ -1,7 +1,56 @@
-html {
-  background: url(../images/food.jpg) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+#stories-bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -10;
+  width: 100%;
+}
+.page-title {
+  background-color: $blue;
+  position: absolute;
+  padding: 1rem;
+  color: $white;
+  font-size: 4rem;
+  margin-left: 2rem;
+}
+
+.story {
+  float:right;
+  width: 80%;
+  margin: 12rem 2rem 0 0;
+  background-color: $blue;
+  opacity: 0.9;
+  filter: alpha(opacity=40);
+  padding: 0 2rem;
+  color: $white;
+  font-size: 1.25rem;
+}
+
+.side-bar {
+  float: left;
+  width: 13.5%;
+  background-color: $blue;
+  margin: 12rem 2rem;
+  position: absolute;
+  padding: 0 1rem;
+  h2 {
+    color: $white;
+    font-size: 1.75rem;
+  }
+  a {
+    text-decoration: none;
+    color: $white;
+    font-size: 1.25rem;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+  }
+  a:hover {
+    color: $brown;
+  }
+  li {
+    list-style: none;
+  }
+  ul {
+    padding-left: 0.15em;
+  }
 }
