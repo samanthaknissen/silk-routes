@@ -1,7 +1,5 @@
 html {
-  background: url(../images/horses.jpg) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  background: url(../images/horses.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
 }
